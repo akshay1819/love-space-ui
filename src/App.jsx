@@ -1,23 +1,24 @@
 import { useState } from "react";
 
-import photo1 from "./assets/hero.png";
-import photo2 from "./assets/hero.png";
-import photo3 from "./assets/hero.png";
+import photo1 from "./assets/pic1.jpeg";
+import photo2 from "./assets/smile.jpeg";
+import photo3 from "./assets/moment.jpeg";
+import photo4 from "./assets/beaut.jpeg";
 
 function App() {
   const [showMessage, setShowMessage] = useState(false);
 
   const memories = [
     {
-      image: photo1,
+      image: photo2,
       text: "My favorite smile ❤️",
     },
     {
-      image: photo2,
+      image: photo3,
       text: "Moments I'll always cherish 💖",
     },
     {
-      image: photo3,
+      image: photo4,
       text: "You make life beautiful ✨",
     },
   ];
@@ -77,7 +78,7 @@ function App() {
           <h1 className="text-5xl md:text-6xl font-black leading-tight text-gray-800 mt-4">
             A tiny website
             <span className="text-pink-600">
-              {" "}for someone special ❤️
+              {" "}for Akshay's Kiran  ❤️
             </span>
           </h1>
 
